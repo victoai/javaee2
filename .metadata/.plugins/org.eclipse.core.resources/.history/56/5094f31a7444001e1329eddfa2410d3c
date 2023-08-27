@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h2> pageContext 저장소 !!!</h2>
+
+<% pageContext.setAttribute("str", "hello pageConext!!!"); %>
+<% String str = (String) pageContext.getAttribute("str"); %>
+<%= str%>
+${str}
+
+
+
+<%  pageContext.getRequest().getServletContext().getContextPath(); %>
+
+
+</body>
+</html>

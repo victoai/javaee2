@@ -1,0 +1,13 @@
+window.addEventListener( "load",   function(){
+	
+	
+	
+	  let btn = document.querySelector("#hi");
+	  let name  = document.querySelector("#name").value;
+	  
+	  btn.addEventListener("click", function(){
+		 // alert("hi");
+		 window.location.href="/mvc/hi?name" + name;
+	  })
+	
+} );
