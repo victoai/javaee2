@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>라디오 버튼 유효성 체크</title>
+
+<script>
+function check() {
+    let frm = document.frm;
+    let genderOptions = frm.gender;
+    alert(genderOptions);
+
+    let flag = false;
+
+    genderOptions.forEach(function(option) {
+        if (option.checked) {
+			alert("Dfdfd");
+            flag = true;
+        }
+    });
+
+    if (!flag) {
+        alert("성별을 선택해 주세요!");
+        return false;
+    } else {
+        return true;
+    }
+}
+</script>
+</head>
+<body>
+    <form name="frm" action="radio_action.jsp" method="post" onsubmit="return check()">
+      <input type="radio" value="M" name="gender">남성 
+        <input type="radio" value="W" name="gender">여성 
+         <input type="radio" value="O" name="gender">기타 
+        
+        <button type="submit">전송</button>
+    </form>
+</body>
+</html>

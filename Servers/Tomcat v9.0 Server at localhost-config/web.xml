@@ -4738,4 +4738,9 @@
  </servlet-mapping>
 
 
+<error-page>
+<exception-type>java.lang.Exception</exception-type>
+<location>/errorHandle</location>
+</error-page>
+
 </web-app>
