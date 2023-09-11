@@ -16,7 +16,8 @@ class MemberDAO2Test {
 		
 		ArrayList<String> list = m.getList();
 		
-		assertTrue( list !=null);
+		 assertTrue( list !=null);
+	 
 		
 	}
 

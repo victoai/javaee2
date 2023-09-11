@@ -136,6 +136,8 @@ public class AcornDAO {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			
+			//예외 되던지, 예외 다시 일으킨다
 			throw e;
 		}
 				
