@@ -4739,7 +4739,7 @@
 
 
 <error-page>
-<exception-type>java.lang.Exception</exception-type>
+<exception-type>java.lang.NullPointerException</exception-type>
 <location>/errorHandle</location>
 </error-page>
 
