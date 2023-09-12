@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\jooyeon\Documents\2023_2\웹\ee_ws\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\jooyeon\Documents\2023_2\웹\ee_ws\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\filterPrj" path="/filterPrj" reloadable="true" source="org.eclipse.jst.jee.server:filterPrj"/><Context docBase="C:\Users\jooyeon\Documents\2023_2\웹\ee_ws\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ExceptionPrj" path="/ExceptionPrj" reloadable="true" source="org.eclipse.jst.jee.server:ExceptionPrj"/></Host>
+      <Context docBase="C:\Users\jooyeon\Documents\2023_2\웹\ee_ws\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\jooyeon\Documents\2023_2\웹\ee_ws\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\MapPrj" path="/MapPrj" reloadable="true" source="org.eclipse.jst.jee.server:MapPrj"/></Host>
     </Engine>
   </Service>
 </Server>
